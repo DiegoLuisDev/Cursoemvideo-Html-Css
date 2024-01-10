@@ -1,0 +1,24 @@
+#div1 {
+    background-color: #34ebe1;
+    width: 100px;
+    height: 100px;
+}
+    #div2 {
+        background-color: black;
+        width: 150px;
+        height: 150px;
+        color: white;
+    }
+    #div3 {
+        background-color: blueviolet;
+        width: 200px;
+        height: 200px;
+    }
+    .alldiv {
+        border: 3px solid #000000;
+        border-radius: 50%;
+        text-align: center;
+    }
+    h1 {
+        font-size: 40px;
+    }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+<h1>Meu Formulário</h1>
+
+<form action="https://formspree.io/f/mqkvzqop" method="post">
+
+    <P>
+        <label>Digite seu Nome</label>
+        <input type="text" placeholder="Digite algo..." required value="" name="nome">
+    </P>
+
+    <p>
+        <label>Digite sua mensagem</label><br>
+        <textarea required placeholder="Digite algo..." name="" id="" cols="7" rows="7"></textarea><br>
+    </p>
+    <p>
+        <label>Escolha os esportes que você pratica:</label><br>
+        <ul>
+            <li><input type="checkbox" name="judo" value="sim">judo</li>
+            <li> <input type="checkbox" name="basquete" value="sim">basquete</li>
+            <li> <input type="checkbox" name="futebol" value="sim">futebol</li>
+        </ul>
+    </p>
+    
+    <p>
+        <label>Escolha sua cor favorita:</label>
+        <ul>
+            <li><input name="corfavorita" value="vermelho" type="radio">vermelho</li>
+            <li><input name="corfavorita" value="azul" type="radio">azul</li>
+            <li><input name="corfavorita" value="verde" type="radio">verde</li>
+        </ul>
+    </p>
+    <p>
+        <label>Escolha sua Cidade</label>
+        <select>
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="bh">Belo Horizonte</option>
+        </select>
+    </p>
+
+    <p>
+        <input required value="Sim" name="termos docontrato" type="checkbox">Eu aceito os termos do contrato
+    </p>
+
+    <button type="submit">Enviar</button>
+
+
+</form>
+
+    
+</body>
+</html>
